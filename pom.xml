@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.40.189:9980/mithuntechnologies/repository/canarabank-releases/</url>
+	      <url>http://13.127.131.222:8081/repository/instagram-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://172.31.40.189:9980/mithuntechnologies/repository/canarabank-snapshot/</url>
+	      <url>http://13.127.131.222:8081/repository/instagram-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
