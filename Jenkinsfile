@@ -1,7 +1,10 @@
 node{
+    def mavenHome = tool name: "maven3.9.8"   
     
-def mavenHome = tool name: "maven3.9.8"
-
+echo "The Node name is: " ${env.NODE_NAME}
+echo "The Job name is: " ${env.JOB_NAME}
+echo "The Build number is: " ${env.BUILD_NUMBER}    
+    
 //Checkout Stage
 stage ('CheckoutCode'){
   git branch: 'development', credentialsId: '94d3892b-ee31-4451-82ff-ffb52b7da40a', url: 'https://github.com/khushiserver/maven-web-application.git'
