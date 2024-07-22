@@ -1,4 +1,7 @@
 node{
+   
+buildName 'Dev - ${BUILD_NUMBER}'
+buildDescription 'pipeline Script - Scriptedway'    
     def mavenHome = tool name: "maven3.9.8"   
     
 echo "The Node name is:  ${env.NODE_NAME} "
