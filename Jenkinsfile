@@ -66,7 +66,7 @@ sshagent(['cea917b9-393c-41e4-b019-cb45305096f3']) {
 }
 
 }//Try block closing 
-catch(e){
+Catch(e){
 currentBuild.result = "FAILED"
 }
 finally{
